@@ -1,0 +1,1 @@
+{"resources":{"python":{"setuptools":["setuptools>=71.0.0"],"rich":["rich>=14.2.0"],"requests":["requests>=2.32.3"],"psutil":["psutil>=7.1.1"],"tiktoken":["tiktoken>=0.12.0"],"beautifulsoup4":["beautifulsoup4>=4.13.3"],"resource.auto-install":[true]}}}

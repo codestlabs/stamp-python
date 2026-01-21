@@ -1,0 +1,13 @@
+[<!DOCTYPE yaml:] #                                            | ignore
+#best viewed (this file) in VSCode and clicking the            | ignore
+#bottom right where it says Plain Text and switch it to 'yaml' | 
+#The structure of this file is as follows:
+# - Blank lines and comments starting with `#` are ignored.
+# - bug identifier (bug)
+# - bug ID (bug#$BID)
+#
+#$Type: $BID: Bug Identity
+#
+#Version-History is at VERSIONS.txt. Check it out!
+#
+bug#0001: Code is structurally unreachable

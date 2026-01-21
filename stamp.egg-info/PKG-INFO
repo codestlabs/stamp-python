@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: stamp
+Version: 4.11
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE.md
+Dynamic: license-file

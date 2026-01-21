@@ -1,0 +1,947 @@
+[<!DOCTYPE yaml:] #                                            | ignore
+#best viewed (this file) in VSCode and clicking on             | ignore
+#bottom right where it says Plain Text and switch it to 'yaml' | ignore
+#The structure of this file is as follows: 
+# - Blank lines and comments starting with `#` are ignored.
+# - Lines contain name of a module, followed by a colon,
+#   a space, and a version range (for example: `symbol: 3.0-3.9`).
+#
+#Version ranges may be of form "X.Y-", "A.B" or "X.Y-". The
+#first form means that a module was introduced in version X.Y and last
+#available in version A.B. The second form means that module was
+#introduced in version X.Y and is still available in latest
+#version of Stamp.
+#
+#The Function Format is as follows:
+#$Class/$Function
+#e.g. adverr/e0
+#or:
+#e.g. _exposed_noclass_function $J
+#
+#Abbreviations:
+#WIP: Work in Progress
+#IPV: Improvement/Improving
+#NFC: No Class Function
+#DEL: Deleted
+#BID: Bug ID
+#NUL: Null
+#EXE: Executable
+#[!]: Deleted
+#ID: Identity/Identification
+#UA: Use-Ability
+#
+##Bug-Tracker is at BUGNUMS.txt. Check it out!
+#
+#$Order: first XXX in file to last XXX in file XXX
+#$Type: tree//OLB-S2T|One-line-branch S2T
+#$VarTypes: $L: Lost, $X: Non-existant (NE), $T: Deleted, $R: Reseted, $N: Notes, $B: Basic, $U: Update Name
+#$File: main.py:$D, __fetch__.py:$F, __init__.py:$I, __doc__.py:$K, _rxyz.py:$Z, _.py:$A, _evlog.py:$E, _shcut.py:$C, server.py:$V, _regex.py:$J, _sprite.py:$W, llm.py:$G, api.py:$P, validation.py:$M; pyproject.toml:$Q, extension.json, extensionlong.json, resource.json, resourcelong.json :$O
+#$Deleted's Identifier::[!]
+#None for __init__.py ($I)
+#All Identifiers:
+#$D $F $I $K $Z $A $E $C $V $J $W $G $L $X $T $R $N $B $U $Q $O $P $M
+#(DFIKZAECVJWGLXTRNBUQOPM)
+#(DFIK ZAEC VJWG LXTR NBUQ OPM)
+#(sounds like:)
+#(deefik zaek vuhjuh wuhgee lexter enbuq opem)
+#(deefixzeakvuhjuhwuhgeelexterenbuqopem)
+============================================================================================================================
+:
+__fetch: Stamp0.0.2beta- $F
+[$Internal$]
+pyproject.toml: Stamp0.0.1 $Q
+[$JSON]
+extension.json,
+extensionlong.json,
+resource.json,
+resourcelong.json,
+$O:
+[$Classes$ | $Functions$:]
+errornames: Stamp1.7.2-4.1.3.1 $D
+ErrorSystem: Stamp1.7.0- $D
+__initexec__: Stamp2.1.1- $D
+globalsys: Stamp1.8.0- $D
+Stamp(): Stamp0.0.1- $D
+PCStamp: Stamp0.9.4- $D
+ListDirectory: $D
+CallError: Stamp $D
+call(): Stamp $D
+__cstring__: Stamp $D
+__cmd__: Stamp $D
+_py_classlvl_consts: Stamp $D
+superobj: Stamp
+__jsonconf__: Stamp
+__dupl__: Stamp2.7-Stamp2.9 [!]
+__msrv__: Stamp2.7.1- $D
+__cid__: Stamp2.8- $D
+__calc_hcl__: Stamp2.4- $D
+adverr: Stamp3.0.8- $D
+adverr/e0: Stamp3.0.8- $D
+adverr/e1: Stamp3.0.8- $D
+adverr/e2: Stamp3.0.8- $D
+adverr/e3: Stamp3.0.8- $D
+adverr/e4: Stamp3.0.8- $D
+adverr/e5: Stamp3.0.8- $D
+adverr/e6: Stamp3.0.8- $D
+adverr/e7: Stamp3.0.8- $D
+adverr/e8: Stamp3.0.8- $D
+adverr/e9: Stamp3.0.8- $D
+adverr/e10: Stamp3.0.8- $D
+adverr/e11: Stamp3.0.8- $D
+adverr/e12: Stamp3.0.8- $D
+adverr/e13: Stamp3.0.8- $D
+adverr/e14: Stamp3.0.8- $D
+adverr/e15: Stamp3.0.8- $D
+adverr/e16: Stamp3.0.8- $D
+adverr/e17: Stamp3.0.8- $D
+adverr/e18: Stamp3.0.8- $D
+adverr/e19: Stamp3.0.8- $D
+adverr/e20: Stamp3.0.8- $D
+adverr/e21: Stamp3.0.8- $D
+adverr/e22: Stamp3.0.8- $D
+adverr/e23: Stamp3.0.8- $D
+adverr/e24: Stamp3.0.8- $D
+adverr/e25: Stamp3.0.8- $D
+adverr/e26: Stamp3.0.8- $D
+adverr/e27: Stamp3.0.8- $D
+adverr/e28: Stamp3.0.8- $D
+adverr/e29: Stamp3.0.8- $D
+adverr/e30: Stamp3.0.8- $D
+adverr/e31: Stamp3.0.8- $D
+adverr/e32: Stamp3.0.8- $D
+adverr/e33: Stamp3.0.8- $D
+adverr/e34: Stamp3.0.8- $D
+adverr/e35: Stamp3.0.8- $D
+advout: Stamp3.1- $D
+advout/advout: Stamp3.1- $D
+advin: Stamp3.2- $D
+advin/input: Stamp3.2- $D
+__cmp__: Stamp3.3- $D
+__cmp__/compare: Stamp3.3- $D
+pdec: Stamp3.4- $D
+pdec/pdec: Stamp3.4- $D
+fint: Stamp3.4.1- $D3.5.1- $D
+fint/fint: Stamp3.4.1- $D3.5.1
+__dpkg__: Stamp3.5
+__dpkg__/pip: Stamp3.5- $D
+__dpkg__/installapp: Stamp3.5.1- $D
+__exf__: Stamp3.6- $D
+__cd__: Stamp3.6.1- $D
+tconstant: Stamp3
+tconstant/typeToConstant: Stamp3.7- $D
+tlist: Stamp3.7- $D
+tlist/typeToList: Stamp3.7- $D
+Type: Stamp3.7- $D
+Type/constant: Stamp3.7- $D
+Type/list: Stamp3.7- $D
+Type/type: Stamp3.7- $D
+Type/flt: Stamp4.1- $D
+Type/btype: Stamp4.1.1- $D
+UnknownAdverrIntError: Stamp3.7- $D
+Control: Stamp3.7- $D
+Control/ct: Stamp3.7- $D
+Debug: Stamp3.7- $D
+Debug/debug: Stamp3.7- $D
+Debug/info: Stamp3.7- $D
+Debug/warning: Stamp3.7- $D
+Debug/error: Stamp3.7- $D
+Debug/critical: Stamp3.7- $D
+Debug/custom: Stamp3.7.1- $D
+Debug/custom: Stamp3.7.1- $D
+DirectoryExistsError: Stamp3.8- $D
+ArgumentError: Stamp3.8- $D
+_export: Stamp3.8- $D
+_export/export: Stamp3.8- $D
+_import: Stamp3.8- $D
+_import/import: Stamp3.8- $D
+_mkdir: Stamp3.8- $D
+_mkdir/mkdir: Stamp3.8- $D
+_mkfile: Stamp3.8- $D
+_mkfile/mkfile: Stamp3.8- $D
+_note: Stamp3.9- $D
+_note/_note: Stamp3.9- $D
+_notes: Stamp3.9- $D
+_notes/_notes: Stamp3.9- $D
+_cl: Stamp3.9- $D
+_cl/_cl: Stamp3.9- $D
+_lock: Stamp3.9- $D
+_lock/_lock: Stamp3.9- $D
+S1: Stamp3.9- $D
+S2: Stamp3.9- $D
+C1: Stamp3.9- $D
+C2: Stamp3.9- $D
+K1: Stamp3.9- $D
+K2: Stamp3.9- $D
+T1: Stamp3.9- $D
+T2: Stamp3.9- $D
+L1: Stamp3.9- $D
+L2: Stamp3.9- $D
+R1: Stamp3.9- $D
+R2: Stamp3.9- $D
+taskmgr: Stamp4.0- $D
+taskmgr/_launch: Stamp4.0- $D
+edit: Stamp4.0- $D
+edit/join: Stamp4.0- $D
+edit/split: Stamp4.0- $D
+edit/upper: Stamp4.0- $D
+edit/lower: Stamp4.0- $D
+edit/replace: Stamp4.0- $D
+edit/find: Stamp4.0- $D
+edit/count: Stamp4.0- $D
+edit/startswith: Stamp4.0- $D
+edit/endswith: Stamp4.0- $D
+edit/isalpha: Stamp4.0- $D
+edit/isdigit: Stamp4.0- $D
+edit/isalnum: Stamp4.0- $D
+edit/isspace: Stamp4.0- $D
+edit/islower: Stamp4.0- $D
+edit/isupper: Stamp4.0- $D
+edit/title: Stamp4.0- $D
+edit/capitilize: Stamp4.0- $D
+edit/swapcase: Stamp4.0- $D
+edit/zfill: Stamp4.0- $D
+edit/strip: Stamp4.0- $D
+Unite: Stamp4.0- $D
+Unite/unite: Stamp4.0- $D
+Kit: Stamp4.0- $D
+Kit/kit: Stamp4.0- $D
+Abombination: Stamp4.0- $D
+Abombination/abomb: Stamp4.0- $D
+Alias: Stamp4.0- $D
+Alias/_new: Stamp4.0- $D
+Alias/_export: Stamp4.0- $D
+__isin__: Stamp4.0- $D
+__isin__/isin: Stamp4.0- $D
+__log__: Stamp4.0- $D
+__log__/log: Stamp4.0- $D
+Royal: Stamp4.1- $D
+Royal/royal: Stamp4.1- $D
+Royal/royalc: Stamp4.1- $D
+Royal/royalq: Stamp4.1- $D
+_count_ds: Stamp4.1- $D
+_count_ds/_count_ds: Stamp4.1- $D
+_count_subds: Stamp4.1- $D
+_count_subds/_count_subds: Stamp4.1- $D
+_calc: Stamp4.1- $D
+_calc/_calc: Stamp4.1- $D
+Frozen: Stamp4.1- $D
+Frozen/__init__: Stamp4.1- $D
+Frozen/frozenc: Stamp4.1- $D
+Frozen/frozenq: Stamp4.1- $D
+_seed: Stamp4.2- $D
+_seed/_seed: Stamp4.2- $D
+_seed/_randint:
+_seed/_randfloat:
+_seed/_choice:
+_seed/_shuffle:
+_dynvar: Stamp4.2- $D
+_dynvar/_dynvar: Stamp4.2- $D
+_link: Stamp4.2- $D
+_link/_link: Stamp4.2- $D
+TimeError: Stamp4.2- $D
+ixpd: Stamp4.2- $D
+_uname: Stamp4.2.2- $D
+_uname/uname: Stamp4.2.2- $D
+strint: Stamp4.2- $D
+strint/strint: Stamp4.2.2- $D
+strint/intstr: Stamp4.2.2- $D
+_: Stamp4.2.2- $D
+__uspcname__: Stamp4.2.2- $D
+PyInstaller: Stamp4.3.1
+PyInstaller/PyInstaller: Stamp4.3.1
+RangeError: Stamp4.4- $D
+join3: Stamp4.4- $D
+join3/join3: Stamp4.4- $D
+rj3: Stamp4.4- $D
+rj3/rj3: Stamp4.4- $D
+HTML: Stamp4.4- $D
+HTML/__reset__: Stamp4.4- $D
+HTML/__run__: Stamp4.4- $D
+HTML/__crthtml__: Stamp4.4- $D
+HTML/addpar: Stamp4.4- $D
+HTML/addhead: Stamp4.4- $D
+HTML/addtxa: Stamp4.4- $D
+HTML/adddelm: Stamp4.4- $D
+HTML/addbtn: Stamp4.4- $D
+HTML/addlbl: Stamp4.4- $D
+HTML/addipt: Stamp4.4- $D
+HTML/addlink: Stamp4.4- $D
+HTML/addimg: Stamp4.4- $D
+HTML/addlist: Stamp4.4- $D
+HTML/adddiv: Stamp4.4- $D
+HTML/addspan: Stamp4.4- $D
+HTML/addtable: Stamp4.4- $D
+HTML/addstyle: Stamp4.4- $D
+HTML/addscript: Stamp4.4- $D
+HTML/addmetacset: Stamp4.4- $D
+HTML/addlinkcss: Stamp4.4- $D
+HTML/addtitle: Stamp4.4- $D
+HTML/addbody: Stamp4.4- $D
+HTML/adddphtml: Stamp4.4- $D
+HTML/addhtml: Stamp4.4- $D
+_ShortType: Stamp4.4- $D
+llm: Stamp4.5- $G
+llm/OllamaConfig: Stamp4.5- $G
+llm/OllamaCheck: Stamp4.5- $G
+llm/GPT2Generator: Stamp4.5- $G
+llm/Ollama: Stamp4.5- $G
+llm/LLMBatchGenerator: Stamp4.5- $G
+llm/LLMEmbeddings: Stamp4.5- $G
+llm/LLMModelComparer: Stamp4.5- $G
+llm/LLMTokenizer: Stamp4.5- $G
+llm/PromptTemplate: Stamp4.5- $G
+llm/ResponseFilter: Stamp4.5- $G
+llm/FileProcessor: Stamp4.5- $G
+llm/WebScraper: Stamp4.5- $G
+llm/LLMAPIServer: Stamp4.5- $G
+llm/LLMMemory: Stamp4.5- $G
+llm/ToolCaller: Stamp4.5- $G
+llm/ConversationManager: Stamp4.5- $G
+llm/PromptAssistant: Stamp4.5- $G
+llm/ModelBenchmarker: Stamp4.5- $G
+llm/ResponseAnalyzer: Stamp4.5- $G
+llm/EventStreamer: Stamp4.5- $G
+llm/PromptChainer: Stamp4.5- $G
+llm/ConcurrentGenerator: Stamp4.5- $G
+llm/ResponseFormatter: Stamp4.5- $G
+llm/ToolSelector: Stamp4.5- $G
+NLPText: Stamp4.6-
+NLPText/sentiment: Stamp4.6-
+NLPText/extractKeywords: Stamp4.6-
+NLPText/detectLanguage: Stamp4.6-
+NLPText/summarizeSimple: Stamp4.6-
+NLPText/extractEntities: Stamp4.6-
+NLPText/classifyCategory: Stamp4.6-
+SmartSearch: Stamp4.6-
+SmartSearch/searchByMeaning: Stamp4.6-
+SmartSearch/findSimilar: Stamp4.6-
+SmartSearch/contextAwareSearch: Stamp4.6-
+SmartSearch/clusterSimilar: Stamp4.6-
+OptimizationAI: Stamp4.6-
+OptimizationAI/detectBottlenecks: Stamp4.6-
+OptimizationAI/suggestTuning: Stamp4.6-
+OptimizationAI/predictLoad: Stamp4.6-
+OptimizationAI/autoTune: Stamp4.6-
+PatternAI: Stamp4.6-
+PatternAI/detectPatterns: Stamp4.6-
+PatternAI/findAnomalies: Stamp4.6-
+PatternAI/predictNext: Stamp4.6-
+PatternAI/classifyBehavior: Stamp4.6-
+PatternAI/detectCycles: Stamp4.6-
+PatternAI/findBursts: Stamp4.6-
+CodeAI: Stamp4.6-
+CodeAI/detectDuplicates: Stamp4.6-
+CodeAI/findSmells: Stamp4.6-
+CodeAI/analyzeComplexity: Stamp4.6-
+CodeAI/suggestRefactoring: Stamp4.6-
+CodeAI/codeSimilarity: Stamp4.6-
+CodeAI/checkLineLength: Stamp4.6-
+DataAnalyzer: Stamp4.6-
+DataAnalyzer/detectTrends: Stamp4.6-
+DataAnalyzer/findOutliers: Stamp4.6-
+DataAnalyzer/statisticalSummary: Stamp4.6-
+DataAnalyzer/visualizeSuggestions: Stamp4.6-
+DataAnalyzer/correlateFeatures: Stamp4.6-
+DataAnalyzer/detectSeasonality: Stamp4.6-
+PredictSystem: Stamp4.6-
+PredictSystem/train: Stamp4.6-
+PredictSystem/predict: Stamp4.6-
+PredictSystem/classify: Stamp4.6-
+PredictSystem/evaluate: Stamp4.6-
+SecurityAI: Stamp4.6-
+SecurityAI/detectMalicious: Stamp4.6-
+SecurityAI/analyzeAnomalyScore: Stamp4.6-
+SecurityAI/identifyThreatType: Stamp4.6-
+SecurityAI/predictAttackProbability: Stamp4.6-
+SecurityAI/suggestMitigation: Stamp4.6-
+SecurityAI/scoreThreatSeverity: Stamp4.6-
+ImageAI: Stamp4.7- $G
+ImageAI/classifyImage: Stamp4.7- $G
+ImageAI/detectObjects: Stamp4.7- $G
+ImageAI/extractFeatures: Stamp4.7- $G
+ImageAI/compareImages: Stamp4.7- $G
+ImageAI/detectFaces: Stamp4.7- $G
+ImageAI/analyzeQuality: Stamp4.7- $G
+AudioAI: Stamp4.7- $G
+AudioAI/transcribeAudio: Stamp4.7- $G
+AudioAI/detectLanguage: Stamp4.7- $G
+AudioAI/analyzeSentiment: Stamp4.7- $G
+AudioAI/extractFeatures: Stamp4.7- $G
+AudioAI/identifySpeakers: Stamp4.7- $G
+AudioAI/detectNoise: Stamp4.7- $G
+DeepLearningAI: Stamp4.7- $G
+DeepLearningAI/trainDeepModel: Stamp4.7- $G
+DeepLearningAI/predictDeep: Stamp4.7- $G
+DeepLearningAI/exportModel: Stamp4.7- $G
+DeepLearningAI/importModel: Stamp4.7- $G
+DeepLearningAI/hyperparameterTune: Stamp4.7- $G
+DeepLearningAI/transferLearn: Stamp4.7- $G
+ForecastAI: Stamp4.7- $G
+ForecastAI/forecastARIMA: Stamp4.7- $G
+ForecastAI/detectSeasonality: Stamp4.7- $G
+ForecastAI/anomalyDetection: Stamp4.7- $G
+ForecastAI/trendDecomposition: Stamp4.7- $G
+ForecastAI/multiVariateForecast: Stamp4.7- $G
+KnowledgeGraphAI: Stamp4.7- $G
+KnowledgeGraphAI/buildGraph: Stamp4.7- $G
+KnowledgeGraphAI/queryGraph: Stamp4.7- $G
+KnowledgeGraphAI/findShortestPath: Stamp4.7- $G
+KnowledgeGraphAI/recommendConnections: Stamp4.7- $G
+KnowledgeGraphAI/detectCommunities: Stamp4.7- $G
+RecommendationAI: Stamp4.7- $G
+RecommendationAI/trainRecommender: Stamp4.7- $G
+RecommendationAI/recommendItems: Stamp4.7- $G
+RecommendationAI/getSimilarItems: Stamp4.7- $G
+RecommendationAI/coldStart: Stamp4.7- $G
+RecommendationAI/explainRecommendation: Stamp4.7- $G
+VisionAI: Stamp4.7- $G
+VisionAI/detectObjects: Stamp4.7- $G
+VisionAI/trackObjects: Stamp4.7- $G
+VisionAI/analyzeMotion: Stamp4.7- $G
+VisionAI/detectActions: Stamp4.7- $G
+VisionAI/estimateDepth: Stamp4.7- $G
+VisionAI/computeOpticalFlow: Stamp4.7- $G
+QuantizerAI: Stamp4.7- $G
+QuantizerAI/quantizeModel: Stamp4.7- $G
+QuantizerAI/dequantizeModel: Stamp4.7- $G
+QuantizerAI/compareModels: Stamp4.7- $G
+QuantizerAI/optimizeForDeployment: Stamp4.7- $G
+QuantizerAI/estimateSizeReduction: Stamp4.7- $G
+QuantizerAI/validateAccuracy: Stamp4.7- $G
+DocView: Stamp4.8- $D
+DocView/view: Stamp4.8- $D
+DocServer: Stamp4.8- $D
+Error501: Stamp4.8- $D
+Error502: Stamp4.8- $D
+Error503: Stamp4.8- $D
+Error504: Stamp4.8- $D
+Error505: Stamp4.8- $D
+Error506: Stamp4.8- $D
+Error507: Stamp4.8- $D
+Error508: Stamp4.8- $D
+UseDifferentClassError: Stamp4.8- $D
+Server: Stamp4.8- $D
+Server/srv: Stamp4.8- $D
+textprocesser: Stamp4.8- $D
+textprocesser/process: Stamp4.8- $D
+Tara: Stamp4.8- $D
+Tara/tara: Stamp4.8- $D
+RTara: Stamp4.8- $D
+RTara/rtara: Stamp4.8- $D
+_history: Stamp4.8- $D
+_history/add: Stamp4.8- $D
+_history/show: Stamp4.8- $D
+_history/get: Stamp4.8- $D
+_history/export: Stamp4.8- $D
+_kvstore: Stamp4.8- $D
+_kvstore/set: Stamp4.8- $D
+_kvstore/get: Stamp4.8- $D
+_kvstore/delete: Stamp4.8- $D
+_kvstore/list: Stamp4.8- $D
+_kvstore/export: Stamp4.8- $D
+_transfer: Stamp4.8- $D
+_transfer/_transfer: Stamp4.8- $D
+_ttransfer: Stamp4.8- $D
+_ttransfer/_mv: Stamp4.8- $D
+_ttransfer/_cp: Stamp4.8- $D
+_ttransfer/_dupl_file_wprefix: Stamp4.8- $D
+_ttransfer/_dupl_file_wsuffix: Stamp4.8- $D
+_chunk: Stamp4.8- $D
+_chunk/chunk: Stamp4.8- $D
+Astray: Stamp4.8- $D
+Astray/_astray: Stamp4.8- $D
+Astray/_show_astray: Stamp4.8- $D
+Calculator: Stamp4.8- $D
+Calculator/pcalculate: Stamp4.8- $D
+Calculator/mcalculate: Stamp4.8- $D
+Calculator/dcalculate: Stamp4.8- $D
+Calculator/ecalculate: Stamp4.8- $D
+Calculator/scalculate: Stamp4.8- $D
+Calculator/ucalculate: Stamp4.8- $D
+DeprectatedError: Stamp4.8- $D
+_rsfd: Stamp4.8- $D
+_rsfd/main: Stamp4.8- $D
+_rsfd/main/filepath: Stamp4.8- $D
+_rsfd/main/target: Stamp4.8- $D
+lstamp: Stamp4.8- $D
+lstamp/_lstamp: Stamp4.8- $D
+lstamp/_rstamp: Stamp4.8- $D
+specmtdta: Stamp4.8- $D
+specmtdta/mkspec: Stamp4.8- $D
+tools: Stamp4.8- $D
+tools/A: Stamp4.8- $D
+tools/B: Stamp4.8- $D
+tools/C: Stamp4.8- $D
+tools/D: Stamp4.8- $D
+tools/E: Stamp4.8- $D
+tools/F: Stamp4.8- $D
+tools/G: Stamp4.8- $D
+tools/H: Stamp4.8- $D
+repeat: Stamp4.8- $D
+repeat/repeat: Stamp4.8- $D
+java: Stamp4.8- $D
+java/System: Stamp4.8- $D
+java/System/out: Stamp4.8- $D
+java/System/out/println: Stamp4.8- $D
+java/System/out/print: Stamp4.8- $D
+java/System/in: Stamp4.8- $D
+java/NullPointerException: Stamp4.8- $D
+java/IllegalArgumentException: Stamp4.8- $D
+java/IOException: Stamp4.8- $D
+java/IndexOutOfBoundsException: Stamp4.8- $D
+java/NumberFormatException: Stamp4.8- $D
+java/ParseException: Stamp4.8- $D
+java/UnsupportedOperationException: Stamp4.8- $D
+java/ArithmeticException: Stamp4.8- $D
+java/ClassCastException: Stamp4.8- $D
+java/IllegalStateException: Stamp4.8- $D
+java/SecurityException: Stamp4.8- $D
+java/NoSuchElementException: Stamp4.8- $D
+java/Calendar: Stamp4.8- $D
+java/Calendar/getInstance: Stamp4.8- $D
+java/Calendar/get: Stamp4.8- $D
+java/Calendar/set: Stamp4.8- $D
+java/Calendar/getTime: Stamp4.8- $D
+java/Properties: Stamp4.8- $D
+java/Properties/getProperty: Stamp4.8- $D
+java/Properties/setProperty: Stamp4.8- $D
+java/Properties/load: Stamp4.8- $D
+java/Properties/store: Stamp4.8- $D
+java/Properties/stringPropertyNames: Stamp4.8- $D
+java/Base64: Stamp4.8- $D
+java/Base64/getEncoder: Stamp4.8- $D
+java/Base64/getDecoder: Stamp4.8- $D
+java/URL: Stamp4.8- $D
+java/URL/getProtocol: Stamp4.8- $D
+java/URL/getHost: Stamp4.8- $D
+java/URL/getPort: Stamp4.8- $D
+java/URL/getPath: Stamp4.8- $D
+java/URL/getFile: Stamp4.8- $D
+java/URL/getQuery: Stamp4.8- $D
+java/URL/toExternalForm: Stamp4.8- $D
+java/URL/__str__: Stamp4.8- $D
+java/InputStream: Stamp4.8- $D
+java/InputStream/read: Stamp4.8- $D
+java/InputStream/close: Stamp4.8- $D
+java/OutputStream: Stamp4.8- $D
+java/OutputStream/write: Stamp4.8- $D
+java/OutputStream/close: Stamp4.8- $D
+java/FileInputStream: Stamp4.8- $D
+java/FileInputStream/read: Stamp4.8- $D
+java/FileInputStream/close: Stamp4.8- $D
+java/FileOutputStream: Stamp4.8- $D
+java/FileOutputStream/write: Stamp4.8- $D
+java/FileOutputStream/close: Stamp4.8- $D
+java/Date: Stamp4.8- $D
+java/Date/getTime: Stamp4.8- $D
+java/Date/setTime: Stamp4.8- $D
+java/Date/after: Stamp4.8- $D
+java/Date/before: Stamp4.8- $D
+java/Date/toString: Stamp4.8- $D
+java/Date/__str__: Stamp4.8- $D
+java/SimpleDateFormat: Stamp4.8- $D
+java/SimpleDateFormat/format: Stamp4.8- $D
+java/SimpleDateFormat/parse: Stamp4.8- $D
+java/SimpleDateFormat/toPattern: Stamp4.8- $D
+java/String: Stamp4.8- $D
+java/String/length: Stamp4.8- $D
+java/String/charAt: Stamp4.8- $D
+java/String/substring: Stamp4.8- $D
+java/String/toUpperCase: Stamp4.8- $D
+java/String/toLowerCase: Stamp4.8- $D
+java/String/startsWith: Stamp4.8- $D
+java/String/endsWith: Stamp4.8- $D
+java/String/indexOf: Stamp4.8- $D
+java/String/lastIndexOf: Stamp4.8- $D
+java/String/equals: Stamp4.8- $D
+java/String/equalsIgnoreCase: Stamp4.8- $D
+java/String/trim: Stamp4.8- $D
+java/String/split: Stamp4.8- $D
+java/String/isEmpty: Stamp4.8- $D
+java/String/__str__: Stamp4.8- $D
+java/String/__repr__: Stamp4.8- $D
+java/StringBuilder: Stamp4.8- $D
+java/StringBuilder/append: Stamp4.8- $D
+java/StringBuilder/insert: Stamp4.8- $D
+java/StringBuilder/delete: Stamp4.8- $D
+java/StringBuilder/reverse: Stamp4.8- $D
+java/StringBuilder/toString: Stamp4.8- $D
+java/StringBuilder/__str__: Stamp4.8- $D
+java/UUID: Stamp4.8- $D
+java/UUID/randomUUID: Stamp4.8- $D
+java/UUID/fromString: Stamp4.8- $D
+java/UUID/nameUUIDFromBytes: Stamp4.8- $D
+java/File: Stamp4.8- $D
+java/File/exists: Stamp4.8- $D
+java/File/isFile: Stamp4.8- $D
+java/File/isDirectory: Stamp4.8- $D
+java/File/getName: Stamp4.8- $D
+java/File/getParent: Stamp4.8- $D
+java/File/getPath: Stamp4.8- $D
+java/File/length: Stamp4.8- $D
+java/File/delete: Stamp4.8- $D
+java/File/mkdir: Stamp4.8- $D
+java/File/mkdirs: Stamp4.8- $D
+java/File/list: Stamp4.8- $D
+java/File/__str__: Stamp4.8- $D
+java/Arrays: Stamp4.8- $D
+java/Arrays/sort: Stamp4.8- $D
+java/Arrays/toString: Stamp4.8- $D
+java/Arrays/equals: Stamp4.8- $D
+java/Arrays/binarySearch: Stamp4.8- $D
+java/Math: Stamp4.8- $D
+java/Math/PI: Stamp4.8- $D
+java/Math/E: Stamp4.8- $D
+java/Math/abs: Stamp4.8- $D
+java/Math/sqrt: Stamp4.8- $D
+java/Math/pow: Stamp4.8- $D
+java/Math/max: Stamp4.8- $D
+java/Math/min: Stamp4.8- $D
+java/Math/random: Stamp4.8- $D
+java/Math/round: Stamp4.8- $D
+java/Math/ceil: Stamp4.8- $D
+java/Math/floor: Stamp4.8- $D
+java/Random: Stamp4.8- $D
+java/Random/nextInt: Stamp4.8- $D
+java/Random/nextDouble: Stamp4.8- $D
+java/Random/nextBoolean: Stamp4.8- $D
+java/ArrayList: Stamp4.8- $D
+java/ArrayList/add: Stamp4.8- $D
+java/ArrayList/get: Stamp4.8- $D
+java/ArrayList/size: Stamp4.8- $D
+java/ArrayList/isEmpty: Stamp4.8- $D
+java/ArrayList/clear: Stamp4.8- $D
+java/ArrayList/remove: Stamp4.8- $D
+java/HashMap: Stamp4.8- $D
+java/HashMap/put: Stamp4.8- $D
+java/HashMap/get: Stamp4.8- $D
+java/HashMap/containsKey: Stamp4.8- $D
+java/HashMap/remove: Stamp4.8- $D
+java/HashMap/size: Stamp4.8- $D
+java/HashMap/isEmpty: Stamp4.8- $D
+java/HashMap/clear: Stamp4.8- $D
+java/HashMap/keySet: Stamp4.8- $D
+java/HashMap/__str__: Stamp4.8- $D
+java/LinkedList: Stamp4.8- $D
+java/LinkedList/addFirst: Stamp4.8- $D
+java/LinkedList/addLast: Stamp4.8- $D
+java/LinkedList/getFirst: Stamp4.8- $D
+java/LinkedList/getLast: Stamp4.8- $D
+java/LinkedList/removeFirst: Stamp4.8- $D
+java/LinkedList/removeLast: Stamp4.8- $D
+java/LinkedList/peek: Stamp4.8- $D
+java/LinkedList/poll: Stamp4.8- $D
+java/LinkedList/push: Stamp4.8- $D
+java/LinkedList/pop: Stamp4.8- $D
+java/HashSet: Stamp4.8- $D
+java/HashSet/add: Stamp4.8- $D
+java/HashSet/contains: Stamp4.8- $D
+java/HashSet/isEmpty: Stamp4.8- $D
+java/HashSet/remove: Stamp4.8- $D
+java/HashSet/size: Stamp4.8- $D
+java/HashSet/clear: Stamp4.8- $D
+java/HashSet/__str__: Stamp4.8- $D
+java/Stack: Stamp4.8- $D
+java/Stack/push: Stamp4.8- $D
+java/Stack/pop: Stamp4.8- $D
+java/Stack/peek: Stamp4.8- $D
+java/Stack/empty: Stamp4.8- $D
+java/Stack/search: Stamp4.8- $D
+java/Queue: Stamp4.8- $D
+java/Queue/offer: Stamp4.8- $D
+java/Collections: Stamp4.8- $D
+java/Collections/sort: Stamp4.8- $D
+java/Collections/reverse: Stamp4.8- $D
+java/Collections/shuffle: Stamp4.8- $D
+java/Collections/max: Stamp4.8- $D
+java/Collections/min: Stamp4.8- $D
+java/Collections/frequency: Stamp4.8- $D
+java/Collections/disjoint: Stamp4.8- $D
+java/Collections/emptyList: Stamp4.8- $D
+java/Collections/emptySet: Stamp4.8- $D
+java/Scanner: Stamp4.8- $D
+java/Scanner/nextLine: Stamp4.8- $D
+java/Scanner/next: Stamp4.8- $D
+java/Scanner/nextInt: Stamp4.8- $D
+java/Scanner/nextDouble: Stamp4.8- $D
+java/Scanner/close: Stamp4.8- $D
+Color: Stamp4.8- $D
+Color/colors: Stamp4.8- $D
+Color/colornos: Stamp4.8- $D
+Color/colorwnos: Stamp4.8- $D
+__version__: Stamp4.8- $D
+__version__/version: Stamp4.8- $D
+exit: Stamp4.0- $D
+License(): Stamp2.9- $D
+License/show: Stamp2.9- $D
+__crt_doc__: 2.9.8- $K
+__doc_del__: 2.9.8- $K
+__del_fromdoc__: 2.9.8- $K
+uevlog: Stamp4.3- $E
+uevlog/_stamp: Stamp4.3- $E
+uevlog/set_file: Stamp4.3- $E
+uevlog/write: Stamp4.3- $E
+uevlog/recent: Stamp4.3- $E
+uevlog/dump: Stamp4.3- $E
+uevlog/clear: Stamp4.3- $E
+ushcut: Stamp4.3- $C
+ushcut/join: Stamp4.3- $C
+ushcut/now: Stamp4.3- $C
+ushcut/stamp: Stamp4.3- $C
+ushcut/short: Stamp4.3- $C
+ushcut/clip: Stamp4.3- $C
+ushcut/flatten: Stamp4.3- $C
+rgx/: Stamp4.3- $J
+rgx/find: Stamp4.3- $J
+rgx/exists: Stamp4.3- $J
+rgx/replace: Stamp4.3- $J
+rgx/extract_groups: Stamp4.3- $J
+rgx/split: Stamp4.3- $J
+rgx/match: Stamp4.3- $J
+_rxyz/_rxyz: Stamp4.1.3- $Z
+_rxyz/Map2D10: Stamp4.2.1- $Z
+hasher: Stamp4.3.2.1 $W
+hasher/rh8: Stamp4.3.2.1 $W
+hasher/h8: Stamp4.3.2.1 $W
+ItemError: Stamp4.3.2.1 $W
+EmptySpriteListError: Stamp4.3.2.1 $W
+Sprite: Stamp.4.3.2 $W
+Sprite/setx: Stamp.4.3.2 $W
+Sprite/sety: Stamp.4.3.2 $W
+Sprite/sety: Stamp.4.3.2 $W
+Sprite/gethash: Stamp.4.3.2 $W
+Sprite/getid: Stamp.4.3.2 $W
+Sprite/getx: Stamp.4.3.2 $W
+Sprite/gety: Stamp.4.3.2 $W
+Sprite/getv: Stamp.4.3.2 $W
+Sprite/rgetx: Stamp.4.3.2 $W
+Sprite/rgety: Stamp.4.3.2 $W
+Sprite/rgetv: Stamp4.3.2 $W
+Sprite/reset: Stamp.4.3.2 $W
+Sprite/new: Stamp.4.3.2 $W
+Sprite/delete: Stamp.4.3.2 $W
+spriteinfo: Stamp4.3.2.2 $W
+spriteinfo/sinfo: Stamp4.3.2.2 $W
+__version__: Stamp4.9- $D
+__version__/version: Stamp4.9- $D
+exit: Stamp4.0- $D
+License(): Stamp2.9- $D
+License/show: Stamp2.9- $D
+__crt_doc__: 2.9.8- $K
+__doc_del__: 2.9.8- $K
+__del_fromdoc__: 2.9.8- $K
+uevlog: Stamp4.3- $E
+uevlog/_stamp: Stamp4.3- $E
+uevlog/set_file: Stamp4.3- $E
+uevlog/write: Stamp4.3- $E
+uevlog/recent: Stamp4.3- $E
+uevlog/dump: Stamp4.3- $E
+uevlog/clear: Stamp4.3- $E
+ushcut: Stamp4.3- $C
+ushcut/join: Stamp4.3- $C
+ushcut/now: Stamp4.3- $C
+ushcut/stamp: Stamp4.3- $C
+ushcut/short: Stamp4.3- $C
+ushcut/clip: Stamp4.3- $C
+ushcut/flatten: Stamp4.3- $C
+rgx/: Stamp4.3- $J
+rgx/find: Stamp4.3- $J
+rgx/exists: Stamp4.3- $J
+rgx/replace: Stamp4.3- $J
+rgx/extract_groups: Stamp4.3- $J
+rgx/split: Stamp4.3- $J
+rgx/match: Stamp4.3- $J
+_rxyz/_rxyz: Stamp4.1.3- $Z
+_rxyz/Map2D10: Stamp4.2.1- $Z
+hasher: Stamp4.3.2.1 $W
+hasher/rh8: Stamp4.3.2.1 $W
+hasher/h8: Stamp4.3.2.1 $W
+ItemError: Stamp4.3.2.1 $W
+EmptySpriteListError: Stamp4.3.2.1 $W
+Sprite: Stamp.4.3.2 $W
+Sprite/setx: Stamp.4.3.2 $W
+Sprite/sety: Stamp.4.3.2 $W
+Sprite/sety: Stamp4.3.2 $W
+Sprite/gethash: Stamp4.3.2 $W
+Sprite/getid: Stamp4.3.2 $W
+Sprite/getx: Stamp4.3.2 $W
+Sprite/gety: Stamp4.3.2 $W
+Sprite/getv: Stamp4.3.2 $W
+Sprite/rgetx: Stamp4.3.2 $W
+Sprite/rgety: Stamp4.3.2 $W
+Sprite/rgetv: Stamp4.3.2 $W
+Sprite/reset: Stamp4.3.2 $W
+Sprite/new: Stamp4.3.2 $W
+Sprite/delete: Stamp4.3.2 $W
+spriteinfo: Stamp4.3.2.2 $W
+spriteinfo/sinfo: Stamp4.3.2.2 $W
+[$Stamp::Versions:]
+$0.0: $X
+$0.0.1: Stamp $N:(orginally named stamp and the stamp_ function was orginally named generate_custom_timestamp), Note2:First Stamp Version
+$0.0.2beta: __fetch__ $F
+$0.0.2: WIP for __fetch__ $N:(orginally named __fetch)
+$0.1: Lost ($L)
+$0.2: Lost ($L)
+$0.3: Lost ($L)
+$0.4: Lost ($L)
+$0.5: Lost ($L)
+$0.6: Lost ($L)
+$0.7: Lost ($L)
+$0.8: Lost ($L)
+$0.9: Lost ($L)
+$0.9.1: PCStamp $U; Stamp Update Part 2 
+$1.0: Lost ($L)
+$1.1: Lost ($L)
+$1.2: Lost ($L)
+$1.3: Lost ($L)
+$1.4: Lost ($L)
+$1.5: Lost ($L)
+$1.6: Lost ($L)
+$1.7: Lost ($L)
+$1.7.0: ErrorSystem
+$1.7.1: Lost ($L)
+$1.7.2: errornames $T [!]
+$1.8: Lost ($L)
+$1.8.0: globalsys
+$1.9: Lost ($L)
+$2.0: Lost ($L)
+$2.1: Lost ($L)
+$2.2.1: __initexec__
+$2.2: Lost ($L)
+$2.3: Lost ($L)
+$2.4: __calc_hcl__
+$2.5: Lost ($L)
+$2.6: Lost ($L)
+$2.7: __msrv__ $N:(__dupl__ deleted ($D))
+$2.8: __cid__
+$2.9: __doc__.py
+$3.0: Lost ($L)
+$3.0.8: adverr $U; Error Update
+$3.1: advout $U; Output Update
+$3.2: advin $U; Input Update
+$3.3: __cmp__
+$3.3.1: __helpcmd__
+$3.3.2 $N: Fixed bug#0001 "Code is structurally unreachable" by moving while True block to inside of try-except statment and emptied bug reflist
+$3.4: pdec
+$3.4.1: fint $N:(fint deleted ($D))
+$3.5: __dpkg__
+$3.5.1: __dpkg__/appinstall
+$3.6: __exf__
+$3.6.1: __cd__
+$3.7: tconstant, tlist, Type, UnknownAdverrIntError, Control, Debug
+$3.7.1: Debug/custom $U
+$3.8: DirectoryExistsError, ArgumentError, _export, _import, _mkdir, _mkfile 
+$3.9: _note, _notes, _cl, _lock, S1, S2, C1, C2, K1, K2, T1, T2, L1, L2, R1, R2
+$4.0: taskmgr, edit, Unite, Kit, Abombination, Alias, __isin__, __log__, exit $U; Edit Update
+$4.1: Frozen, Royal, _count_ds, _count_subds, _calc $U; Frozen Update
+$4.1.1: Type/btype
+$4.1.2 $N: Renamed __debug__ ($D) to Debug because illegal name
+$4.1.3 $N: Added _rxyz.py ($Z) for coordinate system support and control
+$4.1.3.1 $N: Deleted errornames ($D) for readibilty
+$4.1.3.2 $N: WIP and IPV for _rxyz.py ($Z) by adding more use-ability (UA)
+$4.2: TimeError, ixpd
+$4.2.1: Map2D10 ($Z)
+$4.2.2: _uname, strint, _, __uspcname__ $U Edit Update Part 2
+$4.3: None
+$4.3.1: PyInstaller $U; PyInstaller Update
+$4.3.2: Sprite ($W)
+$4.3.2.1: hasher ($W)
+$4.3.2.2: ItemError, EmptySpriteListError, spriteinfo (all $W)
+$4.4: HTML $U; HTML Update
+$4.4.1: RangeError, join3, rj3, _ShortType $U; Edit Update Part 2
+$4.5: llm, OllamaConfig, OllamaCheck, GPT2Generator, Ollama, LLMBatchGenerator, LLMEmbeddings, LLMModelComparer, LLMTokenizer, PromptTemplate, ResponseFilter, FileProcessor, WebScraper, LLMAPIServer, LLMMemory, ToolCaller, ConversationManager, PromptAssistant, ModelBenchmarker, ResponseAnalyzer, EventStreamer, PromptChainer, ConcurrentGenerator, ResponseFormatter, ToolSelector (all $G) $U; AI Update
+$4.6: NLPText, SmartSearch, OptimizationAI, PatternAI, CodeAI, DataAnalyzer, PredictSystem, SecurityAI (all $G) $U; AI Update Part 2
+$4.7: lib/ai/oaiftrs (oaiftrs, $dir) $U; AI Update Part 3
+$4.8: Error501 to 508, Server, textprocesser, Tara, rtara, _history, _kvstore, _transfer, _ttransfer, _chunk, Astray, Calculator, DeprectatedError, _rsfd, lstamp, specmtdta, tools, repeat, java, Color (all $D) $U; Documentation Update
+$4.9: AI (api.py:$P) $U; Easy AI Access Update
+$4.10: TypeCheck, ValueCheck, RangeCheck (validator.py:$M) $U; Validation Update
+$4.11: DevTools (api.py:$P) $U; Developer Toolkit Update, full source published to GitHub
+$4.12:
+$4.13:
+$4.14:
+$4.15:
+$4.16:
+$4.17:
+$4.18:
+$4.19:
+$4.20:
+$4.21:
+$4.22:
+$4.23:
+$4.24:
+$4.25:
+$4.26:
+$4.27:
+$4.28:
+$5.0:
+$5.1:
+$5.2:
+$5.3:
+$5.4:
+$5.5:
+$5.6:
+$5.7:
+$5.8:
+$5.9:
+$6.0:
+$6.1:
+$6.2:
+$6.3:
+$6.4:
+$6.5:
+$6.6:
+$6.7:
+$6.8:
+$6.9:
+$7.0:
+$7.1:
+$7.2:
+$7.3:
+$7.4:
+$7.5:
+$7.6:
+$7.7:
+$7.8:
+$7.9:
+$8.0:
+$8.1:
+$8.2:
+$8.3:
+$8.4:
+$8.5:
+$8.6:
+$8.7:
+$8.8:
+$8.9:
+$9.0:
+$9.1:
+$9.2:
+$9.3:
+$9.4:
+$9.5:
+$9.6:
+$9.7:
+$9.8:
+$9.9:
+$10.0:
+$10.1:
+$10.2:
+$10.3:
+$10.4:
+$10.5:
+$10.6:
+$10.7:
+$10.8:
+$10.9:
+$11.0:
+$11.1:
+$11.2:
+$11.3:
+$11.4:
+$11.5:
+$11.6:
+$11.7:
+$11.8:
+$11.9:
+$12.0:
+$12.1:
