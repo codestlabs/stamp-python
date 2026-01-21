@@ -1,15 +1,21 @@
-### Copyright (c) 2025-PRESENT Codest
-## For-project: Stamp {Latest}
-### All rights reserved.
-## LICENSES FOR REQUIRED THIRD-PARTY DEPENDENCIES
-
-# Stamp will be called "the Software"
-
-# This document compiles the required license notices for the major third-party dependencies used in this project, which includes 'requests' (Apache 2.0), 'psutil' (BSD 3-Clause), 'rich' (MIT), and the Python Standard Library (PSF License).
-### ### ###
-
+Copyright (c) 2025–PRESENT Codest  
+All rights reserved.  
+For‑project: Stamp {Latest}
 1. Ownership
-Codest owns Stamp (4.11) under six (6) licenses: Apache 2.0, BSD 3-Clause, MIT, PSF, GPL, and PyOpenGl v3.
+Stamp is proprietary software owned by Codest.  
+This project includes third‑party components that are licensed under their respective open‑source licenses.  
+Their required license notices are reproduced below.
+
+Included third‑party licenses:  
+- Apache License 2.0 (e.g., requests)  
+- BSD 3‑Clause License (e.g., psutil)  
+- MIT License (e.g., rich)  
+- Python Software Foundation License (Python Standard Library)  
+- GNU General Public License (for components requiring GPL notice)  
+- PyOpenGL License v3
+
+These licenses apply **only** to their respective third‑party components.  
+Codest’s ownership of Stamp is not altered by these notices.
 Codest hereby grants you permission to edit the Software and publish versions of the Software if you desire but not any of the license(s) below.
 
 
@@ -497,4 +503,5 @@ OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
 TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
 USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+
 DAMAGE.
