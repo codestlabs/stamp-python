@@ -1,0 +1,6 @@
+# .gitattributes
+# linguist
+*.md  linguist-language=Markdown 
+*.ps1 linguist-language=PowerShell 
+*.bat linguist-language=Batch
+*.sh  linguist-language=Shell
