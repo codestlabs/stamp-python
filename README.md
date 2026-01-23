@@ -22,6 +22,10 @@ docs/               Documentation stubs
 dist/               Build artifacts (wheel, tar.gz)
 stamp.egg-info/     Package metadata
 pyproject.toml      Build configuration
+VERSIONS.txt        Developer Stamp history
+install.sh          Install for Bash
+install.ps1         Install for Windows using PowerShell
+install.bat         Install for Windows using Command Prompt
 ```
 
 ## Installation
