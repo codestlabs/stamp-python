@@ -855,8 +855,11 @@ $4.7: lib/ai/oaiftrs (oaiftrs, $dir) $U; AI Update Part 3
 $4.8: Error501 to 508, Server, textprocesser, Tara, rtara, _history, _kvstore, _transfer, _ttransfer, _chunk, Astray, Calculator, DeprectatedError, _rsfd, lstamp, specmtdta, tools, repeat, java, Color (all $D) $U; Documentation Update
 $4.9: AI (api.py:$P) $U; Easy AI Access Update
 $4.10: TypeCheck, ValueCheck, RangeCheck (validator.py:$M) $U; Validation Update
-$4.11: DevTools (api.py:$P) $U; Developer Toolkit Update, full source published to GitHub
-$4.12:
+$4.11: DevTools (api.py:$P) $U; Developer Toolkit Update
+$4.11.1: Removed Scratch
+$4.11.2: Removed Warnings # developer-only
+$4.11.3: Fixed typos
+$4.12: 
 $4.13:
 $4.14:
 $4.15:
