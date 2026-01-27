@@ -27,7 +27,7 @@ Use:
 Don't:
 >>> from stamp import thing
 
-Otherwise, it will raise a DeprecatedError.
+Otherwise, it will raise a DepractedError.
 
 Stamp was created on the 18th September 2025 at 12 o'clock, in the afternoon, 
 but in stamp's lstamp._lstamp time format it was on 920251812. Full date is this:
@@ -1157,7 +1157,7 @@ class __exf__:
         if sys.platform.startswith("win"):
             try:
                 cmdstring = ["start", "cmd", "/k", sys.executable, f"{file}"]
-                subproccess.run(cmdstring, shell=True, check=True)
+                subprocess.run(cmdstring, shell=True, check=True)
             except KeyboardInterrupt: adverr.e0()
             except NotADirectoryError: adverr.e1()
             except FileNotFoundError: adverr.e2()#IMPORTANT for not found errors
@@ -1470,7 +1470,7 @@ class _lock:
         index = int(index)
         balanceIndex = balanceIndex
         lock = []
-        if balenceIndex == True:
+        if balanceIndex == True:
             balanceIndex = balanceIndex
             del lock[index - 1]
         else:
@@ -2010,25 +2010,6 @@ class specmtdta:
             f.write(f"{edit.join("name: ", sfname)}")
             f.write(f"{edit.join("language: ", lang)}")
             f.write(f"[timestamp]\n{lstamp._lstamp}") 
-class DeprectatedError(Exception):
-    pass
-class _rsfd:
-    def main(filepath, target):
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                source_code = f.read()
-        except FileNotFoundError:
-            raise FileNotFoundError(f"file not found: {filepath}")
-        tree = ast.parse(source_code)
-        for node in ast.walk(tree):
-            if isinstance(node, ast.Import):
-                for alias in node.names:
-                    if alias.name == target:
-                        return True
-            if isinstance(node, ast.ImportFrom):
-                if node.module == target:
-                    return True
-        return False
 class tools:
     def A(data={}):
         return data
@@ -2771,5 +2752,5 @@ class License(): #INTENDED to be HERE and existing
     @staticmethod
     def show():
         rp(f"licenses:\napache\n\t2.0\nBSD 3-Clause\nMIT\nPSF\ntype: tree\npython: {platform.python_version()}")
-if __name__ == "__main__": 
-	_rsfd.main()
+if __name__ == "__main__":
+    pass
