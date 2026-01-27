@@ -2588,127 +2588,6 @@ class java:
         def close(self):
             """In Java, this closes the stream. Here, it's a no-op but good for mimicry."""
             pass
-class Scratch:
-    class motion:
-        def _Initilize():
-            posx = None
-            posy = None
-            angle = None
-            d = None
-            direction = d
-        _Initilize()        
-        def moveSteps(s=10):
-            """In Scratch, this moves a sprite (s) steps. In Python, there is no sprites"""
-            pass
-        def rotateStepsClockwise(a=15):
-            """In Scratch, this rotates a sprite (s) clockwise. Still, python dosen't have sprites"""
-        def rotateStepsAntiClockwise(b=15):
-            """In Scratch, this rotates a sprite (s) anti-clockwise. Still, python dosen't have sprites"""
-            pass
-        def goToRandomPosition():
-            """In Scratch, this moves a sprite to a random position. Still, no sprites in python"""
-            pass
-        def goToMousePointer(mousex=0,mousey=0):
-            """In Scratch, this moves a sprite to a the mouse. Sprites in python is no, though."""
-            pass
-        def goToXY(x=0,y=0):
-            """In scratch, this moves a sprite to (x) and (y). No sprites in python, still"""
-        def glideToRandomPositionForSeconds(seconds=1):
-            """In scratch, this makes a sprite glide to (x) and (y) for (seconds), but no sprites in python"""
-            pass
-        def glideToMousePointer(seconds=1):
-            """In scratch, this makes a sprite glide to the mouse for (seconds)\nBut we can't because of two reasons:\n1: No Sprites in Python\n2: We can't detect the mouse in python"""
-            pass
-        def pointInDirection(d=90):
-            """In Scratch, this makes a sprite point in direction (d). But still, no sprites in python"""
-            pass
-        def pointTowardsMousePointer():
-            """In SCratch, this makes a sprite point to the mouse pointer. \nBut we can't because of two reasons:\n1: No Sprites in Python\n2: We can't detect the mouse in python"""
-        def changeXBy(cbx=10):
-            """Change (x) by (cbx). (x) must be set already and int"""
-            if x == None:
-                raise ValueError("x must be set to a value first")
-            try:
-                x += 10
-            except Exception:
-                raise TypeError("x is not int, must be int")
-        def setXTo(xt=0):
-            x = xt
-        def changeYBy(cby=10):
-            """Change (y) by (cby). (y) must be set already and int"""
-            if x == None:
-                raise ValueError("x must be set to a value first")
-            try:
-                x += 10
-            except Exception:
-                raise TypeError("x is not int, must be int")
-        def setYTo(yt=0):
-            y = yt
-        def ifOnEdgeBounce():
-            """In Scratch, this would make the sprite bounce on edge. Cannot do because no edge and no sprites are in python"""
-        def xPosition():
-            """Return (x) if (x) is not Made and set using setXTo"""
-            if x == None:
-                raise ValueError("x is not yet set, must be")
-            return x
-        def yPosition():
-            """Return (y) if (y) is not Made and set using setYTo"""
-            if y == None:
-                raise ValueError("y is not yet set, must be")
-            return y
-        def direction():
-            if d == None:
-                raise ValueError("direction is not yet set, must be")
-            return d
-    class looks:
-        def sayFor(msg,seconds=5):
-            print(msg)
-            time.sleep(seconds)
-            os.system("cls" if os.name == "nt" else "clear")
-        def say(msg):
-            print(msg)
-        def thinkFor(msg,seconds=5):
-            print(msg)
-            time.sleep(seconds)
-            os.system("cls" if os.name == "nt" else "clear")
-        def think(msg):
-            print(edit.join(msg,"..."))
-        def switchCostume(costume_name="costume2"):
-            """In Scratch, this would switch the sprite's costume. No sprites in Python."""
-            pass
-        def nextCostume():
-            """In Scratch, this would switch to the next costume in the list. No sprites in Python."""
-            pass
-        def changeSizeBy(change=10):
-            """In Scratch, this changes the sprite's size. No sprites in Python."""
-            pass
-        def setSizeTo(size=100):
-            """In Scratch, this sets the sprite's size. No sprites in Python."""
-            pass
-        def show():
-            """In Scratch, this would make a sprite visible. No sprites in Python."""
-            pass
-        def hide():
-            """In Scratch, this would make a sprite invisible. No sprites in Python."""
-            pass
-
-    class sound:
-        """A class to emulate Scratch's sound blocks."""
-        @staticmethod
-        def playSoundUntilDone(sound_file_path):
-            """Plays a sound file and waits for it to finish."""
-            try:
-                playsound(sound_file_path)
-            except Exception as e:
-                print(f"Error playing sound: {e}")
-        @staticmethod
-        def startSound(sound_file_path):
-            """Starts playing a sound file without waiting for it to finish."""
-            try:
-                playsound(sound_file_path, block=False)
-            except Exception as e:
-                print(f"Error playing sound: {e}")
-
 class __version__:
     def version():
         rp(f"stamp {STAMP_VERSION_STRING}")
@@ -2832,6 +2711,7 @@ class AddImportantError(Exception):
     pass
 class __store__:
     def __storeinit__():
+        global STORE
         STORE = []
     __storeinit__()
     def __store__(): return STORE
